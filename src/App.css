@@ -1,0 +1,54 @@
+.btn {
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  padding: 0.55rem 1.3rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  background: linear-gradient(to right, #0ea5e9, #22c55e);
+  color: #0f172a;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: transform 120ms ease, box-shadow 120ms ease, filter 150ms ease;
+  box-shadow: 0 12px 30px rgba(34, 197, 94, 0.35);
+}
+
+.btn:hover {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+  box-shadow: 0 16px 40px rgba(34, 197, 94, 0.4);
+}
+
+.btn-secondary {
+  background: transparent;
+  border-color: rgba(148, 163, 184, 0.5);
+  color: #e5e7eb;
+  box-shadow: none;
+}
+
+.btn-secondary:hover {
+  background: rgba(15, 23, 42, 0.9);
+}
+
+.btn-ghost {
+  background: none;
+  border-color: transparent;
+  color: #9ca3af;
+  box-shadow: none;
+}
+
+.btn-ghost:hover {
+  color: #e5e7eb;
+  background: rgba(15, 23, 42, 0.6);
+}
+
+.btn-danger {
+  background: linear-gradient(to right, #ef4444, #f97316);
+  color: #0f172a;
+  box-shadow: 0 12px 30px rgba(239, 68, 68, 0.45);
+}
+
+.btn-danger:hover {
+  box-shadow: 0 16px 40px rgba(239, 68, 68, 0.55);
+}
