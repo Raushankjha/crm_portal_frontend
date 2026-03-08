@@ -30,7 +30,7 @@ function FormField({ label, name, type = 'text', value, onChange, error, childre
             padding: '0.55rem 0.75rem',
             borderRadius: 10,
             border: '1px solid rgba(148,163,184,0.5)',
-            background: 'rgba(15,23,42,0.85)',
+            // background: 'rgba(15,23,42,0.85)',
             color: '#e5e7eb',
             fontSize: '0.9rem',
           }}

@@ -56,8 +56,8 @@ function LoginPage() {
   }
 
   return (
-    <div className="relative mx-auto flex min-h-[60vh] items-center justify-center px-4 py-8">
-      <div className="w-full max-w-md rounded-2xl border border-slate-700/70 bg-slate-900/80 p-6 shadow-2xl">
+    <div className="flex min-h-[100vh] items-center justify-center">
+      <div className="w-full max-w-md rounded-2xl border p-6 shadow-2xl bg-gradient-to-br from-[#141e30] to-[#243b55]">
         <PageHeader
           title="Welcome back"
           subtitle="Sign in to manage your sales pipeline and leads."
@@ -83,7 +83,7 @@ function LoginPage() {
             autoComplete="current-password"
           />
           <div className="mt-4 flex flex-col items-start justify-between gap-3 sm:flex-row sm:items-center">
-            <button type="submit" className="btn">
+            <button type="submit" className="bg-[#35bdf2] rounded-xl p-2">
               Login
             </button>
             <div className="text-xs text-slate-400">

@@ -56,8 +56,8 @@ function RegisterPage() {
   }
 
   return (
-    <div className="relative mx-auto flex min-h-[60vh] items-center justify-center px-4 py-8">
-      <div className="w-full max-w-md rounded-2xl border border-slate-700/70 bg-slate-900/80 p-6 shadow-2xl">
+    <div className="flex min-h-[100vh] items-center justify-center">
+      <div className="w-full max-w-md rounded-2xl border bg-gradient-to-br from-[#141e30] to-[#243b55] p-6 shadow-2xl">
         <PageHeader
           title="Create your account"
           subtitle="Set up a profile to start capturing and managing leads."
@@ -91,7 +91,7 @@ function RegisterPage() {
             autoComplete="new-password"
           />
           <div className="mt-4 flex flex-col items-start justify-between gap-3 sm:flex-row sm:items-center">
-            <button type="submit" className="btn">
+            <button type="submit" className="bg-[#35bdf2] rounded-xl p-2">
               Register
             </button>
             <div className="text-xs text-slate-400">

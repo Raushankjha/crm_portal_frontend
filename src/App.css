@@ -1,10 +1,15 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 .btn {
   border-radius: 9999px;
   border: 1px solid transparent;
   padding: 0.55rem 1.3rem;
   font-size: 0.95rem;
   font-weight: 500;
-  background: linear-gradient(to right, #0ea5e9, #22c55e);
+  /* background: linear-gradient(to right, #0ea5e9, #22c55e); */
   color: #0f172a;
   cursor: pointer;
   display: inline-flex;
